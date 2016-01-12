@@ -1,0 +1,70 @@
+html,body{
+	/*width:320px; 
+	height:480px;*/
+	margin:0;
+	padding:0;
+	font-family: 'Jura', 
+	sans-serif;
+
+	border: 1px solid #000;
+
+}
+
+#logo{
+	margin: 1%;
+	width: 10%;
+	height: 10%;
+	float:left;
+}
+
+#buscador{
+	float:left;
+	width: 60%;
+	height: auto;
+
+    margin-left: 10%;
+	margin-top: 3%;
+}
+
+#busca {
+    resize: none;
+}
+
+#menu{
+    margin-top: 15%;
+    margin-bottom: -3%;
+}
+
+#artista{
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#espaiArtista{
+    margin: 3%;
+}
+#text2{
+    color: #fff;
+}
+#text2 #text{
+    width: auto;
+}
+
+
+
+
+/*Perquè al reproduir la cançó es quedi el reproductor fix a baix de tot*/
+#playButton {
+  background: #2B2828;
+  position: fixed;
+  height: 4em;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin-bottom: 0px;
+  border-radius: 2%;
+  text-align: center;
+  display: table-cell; 
+  vertical-align: middle;
+}
